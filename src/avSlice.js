@@ -32,7 +32,7 @@ export const avSlice = createSlice({
             name: "Signage",
             cost: 80,
             quantity: 0,
-        }
+        },
     ],
 
 
@@ -49,6 +49,7 @@ export const avSlice = createSlice({
                 item.quantity--;
             }
         },
+    },
     });
 
 export const { incrementAvQuantity, decrementAvQuantity } = avSlice.actions;
